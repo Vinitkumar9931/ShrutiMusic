@@ -21,10 +21,6 @@ services:
         value: ""
       - key: GIT_TOKEN
         value: ""
-      - key: HEROKU_API_KEY
-        value: ""
-      - key: HEROKU_APP_NAME
-        value: ""
       - key: LOG_GROUP_ID
         value: "-1002321189618"
       - key: SUPPORT_GROUP
