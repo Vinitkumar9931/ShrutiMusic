@@ -1,31 +1,32 @@
 services:
-  - type: web
+  - type: worker
     name: shrutimusic
-    runtime: python
+    env: python
+    plan: free   # yeh line free tier force karegi
     buildCommand: pip install --no-cache-dir -r requirements.txt
     startCommand: bash start
     envVars:
       - key: API_ID
-        value: "29448785"
+        value: "23562992"
       - key: API_HASH
-        value: "599574f6aff0a09ebb76305b58e7e9c2"
+        value: "e070a310ca3e76ebc044146b9829237c"
       - key: BOT_TOKEN
-        value: ""
+        value: "8414244584:AAGp4uwbjMysIfwuncwmuh0IhGo_Bdykvs4"
       - key: MONGO_DB_URI
-        value: "mongodb+srv://pusers:nycreation@nycreation.pd4klp1.mongodb.net/?retryWrites=true&w=majority&appName=NYCREATION"
+        value: "mongodb+srv://rj5706603:O95nvJYxapyDHfkw@cluster0.fzmckei.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
       - key: OWNER_ID
-        value: "1786683163"
+        value: "7590205534"
       - key: OWNER_USERNAME
-        value: ""
+        value: "@teamrajweb"
       - key: STRING_SESSION
-        value: ""
+        value: "BQE1hZwAp1ZYXpFal8A9lGjeAQyqAamRAZ5tvb-X0_W6P9NtrvTK-4xMzdxV0tN9c_b6DZqF7UanWLQD5v4kyCgcNGZDazs0lyJbnszZuIK3Z60EKzHw48AMLlWJBS4P-NXPvSHEeo0eOIupALEEsWMlixEZts8sCIXRDgtKEO-UmaPFpG0LCPYdgcd-5gzPi15uko2It1rmKOXvLBwYa-hduYw3dpbWn9joKMr0bb2gnAFqNkg2Dn_z4hILher-bm8blTGpUYPHFQ-CHBW5pza-TyfnACjEkXlg3QH4w7k9VRkZdDWt9Hl_PJCS3dvegzQfWGxdLJ-lgtB-0hxdveFDpSTElwAAAAFpYTzQAA"
       - key: GIT_TOKEN
         value: ""
       - key: LOG_GROUP_ID
-        value: "-1002321189618"
+        value: "--1002416127727"
       - key: SUPPORT_GROUP
-        value: "https://t.me/ShrutiBotsupport"
+        value: "https://t.me/+W3cejbcBstU0Yjdl"
       - key: SUPPORT_CHANNEL
-        value: "https://t.me/ShrutiBots"
+        value: "https://t.me/bestshayri_raj"
       - key: COOKIE_URL
-        value: "Need , IF You Didn't add Cookies file in cookies folder"
+        value: ""
