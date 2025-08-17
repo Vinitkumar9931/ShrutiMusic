@@ -1,5 +1,5 @@
 services:
-  - type: worker
+  - type: web
     name: shrutimusic
     env: python
     plan: free   # yeh line free tier force karegi
